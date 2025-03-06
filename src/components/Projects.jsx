@@ -14,27 +14,27 @@ function Projects() {
         <Card
           imgURL={rosee}
           name="Rosee Project"
-          URL="https://github.com/Sainazardosht/Rosee-Project/tree/master"
+          URL="https://github.com/Sainazardosht"
         />
         <Card
           imgURL={reen}
           name="Reen Project"
-          URL="https://github.com/Sainazardosht/Rosee-Project/tree/master"
+          URL="https://github.com/Sainazardosht"
         />
         <Card
           imgURL={dentalClinic}
           name="Dental Clinic Project"
-          URL="https://github.com/Sainazardosht/Rosee-Project/tree/master"
+          URL="https://github.com/Sainazardosht"
         />
         <Card
           imgURL={large}
           name="Large Project"
-          URL="https://github.com/Sainazardosht/large"
+          URL="https://github.com/Sainazardosht"
         />
         <Card
           imgURL={tinDog}
           name="Tin Dog Project"
-          URL="https://github.com/Sainazardosht/TinDog"
+          URL="https://github.com/Sainazardosht"
         />
       </div>
 
