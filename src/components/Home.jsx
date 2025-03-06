@@ -2,7 +2,7 @@ import React from "react";
 import img from "../assets/home.svg";
 function Home() {
   return (
-    <div className="p-20 h-170 flex md:flex-row sm:flex-col justify-between items-center gap-25 text-center w-full object-cover bg-stone-200">
+    <div className="p-20 h-170 flex md:flex-row flex-col justify-between items-center gap-25 text-center w-full object-cover bg-stone-200">
       <div className=" md:h-100 flex flex-col justify-center gap-10">
         {" "}
         <h1 className="md:text-6xl font-bold text-slate-800 drop-shadow-lg text-4xl font-serif">
@@ -13,7 +13,7 @@ function Home() {
         </h3>
       </div>
       <div className="h-100">
-        <img src={img} alt="home image" />
+        <img src={img} alt="home image" className="w-full max-w-xs md:max-w-md"/>
       </div>
     </div>
   );
