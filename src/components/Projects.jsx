@@ -8,7 +8,7 @@ import tinDog from "../assets/TinDog.png";
 
 function Projects() {
   return (
-    <section className="md:p-25 text-center bg-stone-100 text-slate-800">
+    <section className="sm:p-25 p-10 text-center bg-stone-100 text-slate-800">
       <h2 className="text-4xl font-semibold pb-20 font-serif">Projects</h2>
       <div className="md:grid grid-cols-3 gap-10">
         <Card
