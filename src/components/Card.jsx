@@ -12,7 +12,7 @@ function Card(props) {
         <h4 className='text-xl font-semibold py-3'>{props.name}</h4>
         <p className='text-left px-5 py-3'>{props.about}</p>
         <h4 className='text-l font-semibold py-3'>Technologies: {props.tech}</h4>
-        <a href={props.URL} target="_blank" className='text-md p-2 text-orange-500 hover:bg-orange-500 hover:text-stone-100 transition ease-out duration-500 rounded-md '>Explore More in GitHub</a>
+        <a href={props.URL} target="_blank" className='text-md p-2 text-orange-500 hover:bg-orange-500 hover:text-stone-100 transition ease-out duration-500 rounded-md '>Explore More</a>
         </div>
     )
 }
