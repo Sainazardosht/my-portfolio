@@ -7,7 +7,7 @@ function Card(props) {
         AOS.init({ duration: 1000, offset: 200, once: true });
       }, []);
     return (
-        <div className='m-5 py-1 border-slate-800 border-2 rounded-lg overflow-hidden bg-slate-800 text-stone-100' data-aos='zoom-out'>
+        <div className='m-5 py-1 border-slate-800 border-2 rounded-lg overflow-hidden bg-slate-800 text-stone-100 flex flex-col justify-start gap-4' data-aos='zoom-out'>
         <img src={props.imgURL} alt="project images" className='border-b-1'/>
         <h4 className='text-xl font-semibold py-3'>{props.name}</h4>
         <p className='text-left px-5 py-3'>{props.about}</p>
