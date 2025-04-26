@@ -2,7 +2,7 @@ import React  from "react";
 // import bgImage from "../assets/bg2.jpg"
 function About(){
     return(
-        <div className="flex justify-center md:py-25 py-0 bg-orange-500" >
+        <div className="flex justify-center md:py-25 py-0 bg-stone-700" >
         <div className="p-12 py-25 text-center bg-stone-100 text-stone-600 md:w-200">
             <h2 className="text-4xl font-semibold pb-20 text-slate-800 font-serif">Get to Know Me!</h2>
             <p>As a highly motivated junior front-end developer and recent Computer Engineering graduate with a Bachelor’s degree, I bring strong communication and collaboration skills to every project. With six months of hands-on experience, I am proficient in HTML, CSS, Bootstrap, JavaScript, jQuery, Tailwind CSS, and React. I have demonstrated the ability to develop efficient code and troubleshoot hardware effectively.

@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Contact(){
     return (
     <div className="flex justify-center md:py-25 py-0 md:border-t-0 border-t-1 border-slate-800" style={{backgroundImage: `url(${bgImage})`}}>
-        <footer className="p-12 text-center bg-orange-500 text-stone-100 w-200">
+        <footer className="p-12 text-center bg-stone-700 text-stone-100 w-200">
             <h2 className="md:text-8xl font-bold py-20 text-4xl font-serif">Get in Touch</h2>
             <p className="text-xl text-stone-100 px-5">I am always excited to work on new projects. Whether you have a question or want to discuss your project, feel free to reach out!</p>
             <div className="pt-10 ">
